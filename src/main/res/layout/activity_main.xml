@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.dc.lbx.MainActivity">
+
+
+   <!--<com.dc.lbx.HexagonView-->
+       <!--android:id="@+id/h1"-->
+       <!--android:layout_width="wrap_content"-->
+       <!--android:layout_height="wrap_content" />-->
+   <!--<com.dc.lbx.HexagonView-->
+       <!--android:id="@+id/h2"-->
+       <!--android:layout_width="wrap_content"-->
+       <!--android:layout_height="wrap_content" />-->
+   <!--<com.dc.lbx.HexagonView-->
+       <!--android:id="@+id/h3"-->
+       <!--android:layout_width="wrap_content"-->
+       <!--android:layout_height="wrap_content" />-->
+   <!--<com.dc.lbx.HexagonView-->
+       <!--android:id="@+id/h4"-->
+       <!--android:layout_width="wrap_content"-->
+       <!--android:layout_height="wrap_content" />-->
+   <!--<com.dc.lbx.HexagonView-->
+       <!--android:id="@+id/h5"-->
+       <!--android:layout_width="wrap_content"-->
+       <!--android:layout_height="wrap_content" />-->
+   <!--<com.dc.lbx.HexagonView-->
+       <!--android:id="@+id/h6"-->
+       <!--android:layout_width="wrap_content"-->
+       <!--android:layout_height="wrap_content" />-->
+   <!--<com.dc.lbx.HexagonView-->
+       <!--android:id="@+id/h7"-->
+       <!--android:layout_width="wrap_content"-->
+       <!--android:layout_height="wrap_content" />-->
+
+   <com.dc.lbx.HexagonLayout
+       android:id="@+id/hly"
+       android:layout_width="match_parent"
+       android:layout_height="500dp">
+      <com.dc.lbx.HexagonViewYC
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          app:index="0"
+          android:background="@drawable/bg_normal"
+          android:text="标题0"/>
+
+      <com.dc.lbx.HexagonViewYC
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          app:index="1"
+          android:background="@drawable/bg_normal"
+          android:text="标题1"/>
+
+      <com.dc.lbx.HexagonViewYC
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          app:index="2"
+          android:background="@drawable/bg_normal"
+          android:text="标题2"/>
+
+      <com.dc.lbx.HexagonViewYC
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          app:index="3"
+          android:background="@drawable/bg_normal"
+          android:text="标题3"/>
+
+      <com.dc.lbx.HexagonViewYC
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          app:index="4"
+          android:background="@drawable/bg_normal"
+          android:text="标题4"/>
+
+      <com.dc.lbx.HexagonViewYC
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          app:index="5"
+          android:background="@drawable/bg_normal"
+          android:text="标题5"/>
+
+      <com.dc.lbx.HexagonViewYC
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          app:index="6"
+          android:background="@drawable/bg_normal"
+          android:text="标题6"/>
+
+   </com.dc.lbx.HexagonLayout>
+
+</android.support.constraint.ConstraintLayout>
